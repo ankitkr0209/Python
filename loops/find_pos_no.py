@@ -1,0 +1,8 @@
+number =[1,-2,3,-4,5,-6,7,9,10]
+positive_number_count = 0
+for num in number :
+    if num>=0:
+        positive_number_count +=1
+    
+
+print("total positive no. in list = " ,positive_number_count)
