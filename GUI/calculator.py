@@ -6,22 +6,7 @@ win = Tk()
 win.title("Hello")
 # win.geometry('600x450+50+50')
 
-# Window_width = 600
-# window_height = 400
 
-# # get the screen dimension
-# screen_width = win.winfo_screenwidth()
-# screen_height = win.winfo_screenheight()
-
-# # find the center point
-
-# center_x = int(screen_width / 2 - Window_width/2)
-# center_y = int(screen_height / 2 - window_height/2)
-
-# win.geometry(f'{Window_width}x{window_height}+{center_x}+{center_y}')
-
-# mylabel = Label(win, text="hello world")
-# mylabel.pack()
 e = Entry(win, width = 45 , borderwidth = 5)
 e.grid(row=0 , column = 0 , columnspan = 3 , padx = 10 , pady = 10)
 
